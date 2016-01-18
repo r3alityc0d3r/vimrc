@@ -19,6 +19,10 @@ enjoy!!
 if you are using putty to access your linux vm then you will need to follow
 these links to get the special characters and colors to work correctly:
 
+if you are running centos 6 then run the following command before following the 
+next link:
+sudo yum install fontconfig
+
 http://stackoverflow.com/questions/19105279/how-can-i-setup-my-vim-airline-or-vim-powerline
 http://pdalinis.blogspot.com/2013/08/putty-powerline.html
 
