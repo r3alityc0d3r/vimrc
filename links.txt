@@ -12,6 +12,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 4. install all the plugins
 vim +PluginInstall +qall
 
+5. make sure you have the puppetlint gem installed globally
+gem install puppet-lint
+
 enjoy!!
 
 
