@@ -1,4 +1,23 @@
-these are links i used to get it all working right:
+1. clone this repository to your local user's root directory
+
+cd ~
+git clone https://github.com/r3alityc0d3r/vimrc.git
+
+2. copy the .vimrc to your root folder
+cp ~/vimrc/.vimrc .
+
+3. install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+4. install all the plugins
+vim +PluginInstall +qall
+
+enjoy!!
+
+
+
+if you are using putty to access your linux vm then you will need to follow
+these links to get the special characters and colors to work correctly:
 
 http://stackoverflow.com/questions/19105279/how-can-i-setup-my-vim-airline-or-vim-powerline
 http://pdalinis.blogspot.com/2013/08/putty-powerline.html
