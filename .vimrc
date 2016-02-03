@@ -20,6 +20,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/Specky'
 Plugin 'puppetlabs/puppet-syntax-vim'
+Plugin 'davidhalter/jedi'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
